@@ -6,12 +6,24 @@
   letter-spacing: 5px;
   justify-self: center;
   cursor: pointer;
+  text-transform: uppercase;
+  padding: 0 10px;
 }
 .bar {
   background-color: black;
   height: 3px;
   width: 100%;
 }
-.titleone {
-  color: blue;
+@media (max-width: 780px) {
+  .title {
+    font-size: 15px;
+  }
+}
+@media (max-width: 600px) {
+  .title {
+    font-size: 10px;
+  }
+  .bar {
+    height: 2px;
+  }
 }
