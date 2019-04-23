@@ -4,7 +4,7 @@ import Title from "../title/Title";
 const clients = () => {
   return (
     <div>
-      <Title name="Clients" />
+      <Title name="Clients Success" />
     </div>
   );
 };
