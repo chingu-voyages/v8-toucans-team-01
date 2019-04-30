@@ -1,0 +1,66 @@
+body {
+    
+
+}
+
+header {
+    height: 100px;
+    margin: 0px;
+    width: 100%;
+}
+ul.navlist.flex {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+    background-color: #f2f2f2;
+    height: 100px;
+    line-height: 100px;
+    margin-top: 0px;
+    color: transparent white;
+}
+
+ul.navlist.flex a {
+    text-decoration: none;
+    color: #191918;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+ a:hover {
+    font-size: 27px;
+    background-color: skyblue;
+    border-radius: 5px;
+}
+
+a:link {
+    color: #FF0000;
+}
+
+a:visited {
+    color: #0000FF;
+}
+
+a:active {
+    color:#FF00FF;
+}
+
+.teamName {
+    font-size: 50px;
+}
+.mobile div {
+    width: 40px;
+    height: 10px;
+    margin: 15px 8px 15px 0px;
+    background-color: black;
+    cursor: pointer;
+
+}
+
+@media screen and (max-width: 450px) {
+    ul.navlist.flex {
+        display: flex;
+        flex-direction: column;
+        padding-top: 5px;
+
+    }
+}
