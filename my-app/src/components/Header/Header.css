@@ -56,6 +56,10 @@ a:active {
 
 }
 
+.carousel {
+    background-color: black;
+}
+
 @media screen and (max-width: 450px) {
     ul.navlist.flex {
         display: flex;

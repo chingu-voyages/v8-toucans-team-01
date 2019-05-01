@@ -1,5 +1,6 @@
 import React from "react"
 import './Header.css'
+import '../ImageSlider/redwoods_state_park.jpg'
 
 class Header extends React.Component{
     render(){
@@ -46,7 +47,7 @@ class Header extends React.Component{
                 </header> */}
 
                 <div className="carousel images">
-                    <img src="./images/carousel1.jpg" alt="image of boy working on his laptop" />
+                    <img className="city" src="https://s3.us-east-2.amazonaws.com/dzuz14/thumbnails/city.jpg" alt="image of boy working on his laptop" />
                 
                 </div>
             </div>

@@ -25,15 +25,16 @@ class Contact extends React.Component {
                     <input type="phone"></input>
                     <p></p>
                     
-                    <label for="name">First Name</label>
+                    <label for="name">Company Name</label>
                     <input type="text" name="name" required></input>
                     <p></p>
 
-                    <label for="name">First Name</label>
+                    <label for="name">Description</label>
+                    <input type="textarea" name="name" required></input>
 
-                    <label for="name">First Name</label>
+                    {/* <label for="name">First Name</label>
 
-                    <label for="name">First Name</label>
+                    <label for="name">First Name</label> */}
                     
                 </form>
             
